@@ -49,7 +49,7 @@ docker run -d --name gitlab-runner --restart always      --network host      -v 
 docker exec -it gitlab-runner gitlab-runner restart
 
 ```
-![Новый проект с зарегистрированным ранером](https://github.com/AlexandeAbel/8-3-hv/img/runner_project.png)
+![Новый проект с зарегистрированным ранером](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/runner_project.png)
 
 
 ## Задание №2
@@ -76,7 +76,7 @@ git commit -m "test"
 git push origin changed
 ```
 
-![Новая ветка в GitLab](https://github.com/AlexandeAbel/8-3-hv/img/pushed_branch.png)
+![Новая ветка в GitLab](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/pushed_branch.png)
 
 - Создаем файл .gitlab-ci.yml с кодом:
 ```
@@ -102,11 +102,11 @@ build:
     - new
 ```
 
-![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/img/success_pipeline_1.png)
+![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/success_pipeline_1.png)
 
-![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/img/success_pipeline_2.png)
+![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/success_pipeline_2.png)
 
-![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/img/success_pipeline_3.png)
+![Успешный пайплайн](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/success_pipeline_3.png)
 
 ## Задание №3
 
@@ -158,4 +158,4 @@ build:
 tags:
     - new
 ```
-![Третье задание](https://github.com/AlexandeAbel/8-3-hv/img/task_3.png)
+![Третье задание](https://github.com/AlexandeAbel/8-3-hv/blob/main/img/task_3.png)
